@@ -4,3 +4,5 @@
 4. add a cup of water to the mix 
 5. mix the ingredients thoroughly
 6. Knead to get a fine mix 
+7. cut the dough into sizable pieces
+8. bake under low heat
