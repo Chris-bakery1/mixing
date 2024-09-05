@@ -20,3 +20,7 @@ jobs:
         run: mkdir sosa
       - name: create a file
         run: touch rabi.txt
+      - name: create a file 
+        run: touch toy.tf
+      - name: create a folder
+        run: mkdir yut
