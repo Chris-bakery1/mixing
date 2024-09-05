@@ -1,0 +1,22 @@
+# give the code a name 
+
+name: simple-ci
+# when should our code run 
+on: [push]
+# what are we running 
+#1.things to run are define in the jobs
+#2.where should the code run
+#3.what are the steps 
+
+
+jobs:
+  check-linux-version:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: check system memory
+        run: free
+      - name: create a directory
+        run: mkdir sosa
+      - name: create a file
+        run: touch rabi.txt
